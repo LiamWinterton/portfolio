@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	.container {
+		@apply mx-auto;
+		@apply py-6;
+	}
+}
