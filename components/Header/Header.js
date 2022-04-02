@@ -3,7 +3,9 @@ import Menu from '@/components/Menu/Menu'
 const Header = () => {
 	return (
 		<header>
-			<Menu />
+			<div className="container">
+				<Menu />
+			</div>
 		</header>
 	)
 }
