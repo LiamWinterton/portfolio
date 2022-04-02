@@ -1,5 +1,12 @@
+import Header from '@/components/Header/Header'
+
 const Layout = ({ children }) => {
-	return <div>{children}</div>
+	return (
+		<>
+			<Header />
+			{children}
+		</>
+	)
 }
 
 export default Layout
