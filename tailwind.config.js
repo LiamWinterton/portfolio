@@ -10,7 +10,9 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: '#E35252',
-				'white-off': '#F8F8F8'
+				'primary-dark': '#cf5454',
+				'white-off': '#F8F8F8',
+				'black-off': '#2a2a2a'
 			},
 			dropShadow: {
 				card: '0px 0px 30px -10px rgba(0, 0, 0, 0.25)'
