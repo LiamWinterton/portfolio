@@ -7,7 +7,11 @@ module.exports = {
 		fontFamily: {
 			sans: ["'Oxygen'", 'sans-serif']
 		},
-		extend: {}
+		extend: {
+			colors: {
+				primary: '#E35252'
+			}
+		}
 	},
 	plugins: []
 }

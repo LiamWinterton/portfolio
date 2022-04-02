@@ -3,8 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+	body {
+		@apply text-base;
+		@apply font-light;
+		@apply leading-normal;
+	}
+
 	.container {
 		@apply mx-auto;
 		@apply py-6;
+	}
+
+	.subtitle {
+		@apply text-lg;
+		@apply font-normal;
 	}
 }
