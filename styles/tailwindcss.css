@@ -8,6 +8,7 @@
 		@apply font-light;
 		@apply leading-normal;
 		@apply bg-white-off;
+		@apply text-black-off;
 	}
 
 	.container {
