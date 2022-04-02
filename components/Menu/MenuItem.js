@@ -3,7 +3,7 @@ import Link from 'next/link'
 const MenuItem = props => {
 	const { classes } = props
 
-	let classList = 'text-2xl font-bold uppercase'
+	let classList = 'font-bold uppercase'
 
 	if (classes) {
 		classList = `${classList} ${classes.join(' ')}`

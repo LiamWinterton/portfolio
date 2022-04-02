@@ -9,7 +9,17 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				primary: '#E35252'
+				primary: '#E35252',
+				'white-off': '#F8F8F8'
+			},
+			dropShadow: {
+				card: '0px 0px 30px -10px rgba(0, 0, 0, 0.25)'
+			},
+			container: {
+				screens: {
+					xl: '1200px',
+					'2xl': '1200px'
+				}
 			}
 		}
 	},
