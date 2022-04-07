@@ -3,15 +3,9 @@ import Link from 'next/link'
 const MenuItem = props => {
 	const { classes } = props
 
-	let classList = 'font-bold uppercase'
-
-	if (classes) {
-		classList = `${classList} ${classes.join(' ')}`
-	}
-
 	return (
 		<Link href={props.href}>
-			<a className={classList}>{props.text}</a>
+			<a className="font-bold uppercase text-2xl">{props.text}</a>
 		</Link>
 	)
 }
