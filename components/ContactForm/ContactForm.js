@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import Input from '@/components/UI/Input'
+
 const ContactForm = () => {
 	return (
 		<div className="bg-white py-16 mt-20 relative">
@@ -9,17 +11,12 @@ const ContactForm = () => {
 						Want to connect?
 					</legend>
 					<fieldset>
-						<div className="flex flex-col">
-							<label className="block mb-3 font-bold">
-								Your Name
-							</label>
-							<input
-								type="text"
-								className="form-input border-0 border-b-2 border-primary bg-gray-50"
-								name="name"
-								id="name"
-							/>
-						</div>
+						<Input
+							label="Your Name"
+							type="text"
+							name="name"
+							id="name"
+						/>
 					</fieldset>
 				</form>
 			</div>
