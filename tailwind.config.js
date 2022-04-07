@@ -14,7 +14,7 @@ module.exports = {
 				'white-off': '#F8F8F8',
 				'black-off': '#2a2a2a'
 			},
-			dropShadow: {
+			boxShadow: {
 				card: '0px 0px 30px -10px rgba(0, 0, 0, 0.25)'
 			},
 			container: {
