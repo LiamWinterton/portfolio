@@ -5,16 +5,17 @@ const ContactForm = () => {
 		<div className="bg-white py-16 mt-20 relative">
 			<div className="container w-11/12 relative z-50">
 				<form className="shadow-2xl rounded-lg max-w-md mx-auto my-16 bg-white p-9">
-					<legend className="text-3xl font-bold mb-3 text-center">
+					<legend className="text-3xl font-bold mb-9 text-center text-primary">
 						Want to connect?
 					</legend>
-					<p className="text-center">Fantastic news!</p>
-					<fieldset className="mt-6">
+					<fieldset>
 						<div className="flex flex-col">
-							<label>Your Name</label>
+							<label className="block mb-3 font-bold">
+								Your Name
+							</label>
 							<input
 								type="text"
-								className="form-input"
+								className="form-input border-0 border-b-2 border-primary bg-gray-50"
 								name="name"
 								id="name"
 							/>
