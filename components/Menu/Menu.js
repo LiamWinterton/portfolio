@@ -5,7 +5,7 @@ const Menu = () => {
 		<nav className="flex justify-between items-center pt-9 lg:pt-16">
 			<MenuItem href="/" text="<Liam.Winterton/>" />
 
-			<div className="space-y-2">
+			<div className="space-y-2 lg:hidden">
 				<div className="w-8 h-0.5 bg-black-off"></div>
 				<div className="w-8 h-0.5 bg-black-off"></div>
 				<div className="w-8 h-0.5 bg-black-off"></div>
