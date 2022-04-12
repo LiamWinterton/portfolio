@@ -7,7 +7,7 @@ const Hero = () => {
 			<div>
 				<HeroContent />
 			</div>
-			<div className="hidden">
+			<div className="hidden lg:block">
 				<HeroImage />
 			</div>
 		</div>

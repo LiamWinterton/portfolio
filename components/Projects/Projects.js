@@ -29,7 +29,7 @@ const Projects = () => {
 	]
 
 	return (
-		<div className="space-y-32">
+		<div className="space-y-9 lg:space-y-16">
 			{projects.map(project => {
 				const { id, title, technologies, subtitle, content } = project
 
