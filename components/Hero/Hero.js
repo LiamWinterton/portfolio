@@ -3,9 +3,13 @@ import HeroImage from '@/components/Hero/HeroImage'
 
 const Hero = () => {
 	return (
-		<div className="flex justify-between items-center space-x-8 py-32">
-			<HeroContent />
-			<HeroImage />
+		<div className="py-9 lg:flex lg:justify-between lg:items-center lg:space-x-8 lg:py-32">
+			<div>
+				<HeroContent />
+			</div>
+			<div className="hidden">
+				<HeroImage />
+			</div>
 		</div>
 	)
 }
