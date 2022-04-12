@@ -35,9 +35,9 @@ const ContactForm = () => {
 				</form>
 			</div>
 			<div className="absolute inset-0 h-full w-full">
-				<div className="w-1/2 h-full ml-auto py-16 nextimage-full">
+				<div className="w-3/5 h-full ml-auto py-16 nextimage-full lg:w-1/2">
 					<Image
-						src="/images/lego-background.jpg"
+						src="/images/writing-pad.jpg"
 						layout="responsive"
 						alt=""
 						width={460}
