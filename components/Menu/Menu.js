@@ -2,9 +2,16 @@ import MenuItem from '@/components/Menu/MenuItem'
 
 const Menu = () => {
 	return (
-		<nav className="flex justify-between items-center pt-16">
+		<nav className="flex justify-between items-center pt-9 lg:pt-16">
 			<MenuItem href="/" text="<Liam.Winterton/>" />
-			<ul className="flex space-x-16">
+
+			<div className="space-y-2">
+				<div className="w-8 h-0.5 bg-black-off"></div>
+				<div className="w-8 h-0.5 bg-black-off"></div>
+				<div className="w-8 h-0.5 bg-black-off"></div>
+			</div>
+
+			<ul className="hidden lg:flex lg:space-x-16">
 				<li>
 					<MenuItem href="/" text="My Work" />
 				</li>
