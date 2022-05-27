@@ -5,11 +5,15 @@ import Button from '@/components/UI/Button'
 
 const ContactForm = () => {
 	return (
-		<div className="bg-white py-16 mt-20 relative">
+		<div id="contact-form" className="bg-white py-16 mt-20 relative">
 			<div className="container w-11/12 py-16 relative z-50">
 				<form className="shadow-2xl rounded-lg max-w-md mx-auto bg-white p-9">
 					<legend className="text-3xl font-bold mb-9 text-center text-primary">
 						Want to connect?
+						<br />
+						<small className="text-sm">
+							Sorry, not currently working!
+						</small>
 					</legend>
 					<fieldset className="space-y-6 mb-6">
 						<Input
@@ -31,7 +35,11 @@ const ContactForm = () => {
 							id="message"
 						/>
 					</fieldset>
-					<Button type="submit" text="Send"></Button>
+					<Button
+						type="submit"
+						text="Send"
+						disabled="disabled"
+					></Button>
 				</form>
 			</div>
 			<div className="absolute inset-0 h-full w-full">

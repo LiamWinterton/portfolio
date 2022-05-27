@@ -25,7 +25,7 @@ const Menu = () => {
 					/>
 				</li>
 				<li>
-					<MenuItem href="/" text="Contact" />
+					<MenuItem href="/#contact-form" text="Contact" />
 				</li>
 			</ul>
 		</nav>
