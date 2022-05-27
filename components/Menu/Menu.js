@@ -16,10 +16,13 @@ const Menu = () => {
 					<MenuItem href="/#projects" text="My Work" />
 				</li>
 				<li>
-					<MenuItem href="/" text="About me" />
+					<MenuItem href="/about-me" text="About me" />
 				</li>
 				<li>
-					<MenuItem href="/" text="Github" />
+					<MenuItem
+						href="https://github.com/LiamWinterton"
+						text="Github"
+					/>
 				</li>
 				<li>
 					<MenuItem href="/" text="Contact" />

@@ -33,14 +33,18 @@ const ProjectCard = ({
 
 			{thumbnail ? (
 				<div className="hidden lg:block w-[600px] h-auto">
-					<Image
-						src={thumbnail}
-						layout="responsive"
-						width={600}
-						height={400}
-						alt={title}
-						className="rounded-lg transition-all hover:scale-95"
-					/>
+					<Link href={link}>
+						<a target="_blank">
+							<Image
+								src={thumbnail}
+								layout="responsive"
+								width={600}
+								height={400}
+								alt={title}
+								className="rounded-lg transition-all hover:scale-95"
+							/>
+						</a>
+					</Link>
 				</div>
 			) : (
 				<div className="hidden lg:block w-[600px] h-[350px] bg-gray-300 rounded-lg"></div>
