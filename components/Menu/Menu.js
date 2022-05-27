@@ -13,7 +13,7 @@ const Menu = () => {
 
 			<ul className="hidden lg:flex lg:space-x-16">
 				<li>
-					<MenuItem href="/" text="My Work" />
+					<MenuItem href="/#projects" text="My Work" />
 				</li>
 				<li>
 					<MenuItem href="/" text="About me" />
